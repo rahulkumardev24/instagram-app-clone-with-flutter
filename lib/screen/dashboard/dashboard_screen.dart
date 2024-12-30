@@ -16,11 +16,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
   /// here we create list of screen
   /// list of screen call here
   List screen = [
-    HomeScreen(),
-    SearchScreen(),
-    PostAddScreen(),
-    ReelsScreen(),
-    ProfileScreen()
+    const HomeScreen(),
+    const SearchScreen(),
+    const PostAddScreen(),
+    const ReelsScreen(),
+    const ProfileScreen()
   ];
 
   int currentScreen = 0;

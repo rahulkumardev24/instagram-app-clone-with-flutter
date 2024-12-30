@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_app_clone/screen/bottom_navigation_screen/home_screen.dart';
 import 'package:instagram_app_clone/screen/dashboard/dashboard_screen.dart';
 import 'package:instagram_app_clone/screen/splash_screen.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: DashboardScreen());
+        home: const DashboardScreen());
   }
 }
 
@@ -40,5 +41,8 @@ class MyApp extends StatelessWidget {
 /// Dashboard Screen => DONE
 ///
 /// Step 5
-/// Home screen =>
+/// Home screen => DONE
+///
+/// Step 6
+/// Profile Screen =>
 ///

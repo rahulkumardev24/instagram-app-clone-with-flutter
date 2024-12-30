@@ -8,7 +8,7 @@ TextStyle myTextStyle15(
     Color fontColor = Colors.black,
     String fontFamily = "primary"}) {
   return TextStyle(
-      fontWeight: fontWeight, fontFamily: fontFamily, fontSize: 15);
+      fontWeight: fontWeight, color: fontColor, fontFamily: fontFamily, fontSize: 15);
 }
 
 /// size 18
@@ -17,7 +17,7 @@ TextStyle myTextStyle18(
     Color fontColor = Colors.black,
     String fontFamily = "primary"}) {
   return TextStyle(
-      fontWeight: fontWeight, fontFamily: fontFamily, fontSize: 18);
+      fontWeight: fontWeight,color: fontColor, fontFamily: fontFamily, fontSize: 18);
 }
 
 /// size 20
@@ -26,7 +26,7 @@ TextStyle myTextStyle20(
     Color fontColor = Colors.black,
     String fontFamily = "primary"}) {
   return TextStyle(
-      fontWeight: fontWeight, fontFamily: fontFamily, fontSize: 20);
+      fontWeight: fontWeight,color: fontColor, fontFamily: fontFamily, fontSize: 20);
 }
 
 /// size 22
@@ -35,7 +35,7 @@ TextStyle myTextStyle22(
     Color fontColor = Colors.black,
     String fontFamily = "primary"}) {
   return TextStyle(
-      fontWeight: fontWeight, fontFamily: fontFamily, fontSize: 22);
+      fontWeight: fontWeight,color: fontColor, fontFamily: fontFamily, fontSize: 22);
 }
 
 /// size 25
@@ -44,7 +44,7 @@ TextStyle myTextStyle25(
     Color fontColor = Colors.black,
     String fontFamily = "primary"}) {
   return TextStyle(
-      fontWeight: fontWeight, fontFamily: fontFamily, fontSize: 25);
+      fontWeight: fontWeight,color: fontColor, fontFamily: fontFamily, fontSize: 25);
 }
 
 /// size 28
@@ -53,7 +53,7 @@ TextStyle myTextStyle28(
     Color fontColor = Colors.black,
     String fontFamily = "primary"}) {
   return TextStyle(
-      fontWeight: fontWeight, fontFamily: fontFamily, fontSize: 28);
+      fontWeight: fontWeight,color: fontColor, fontFamily: fontFamily, fontSize: 28);
 }
 
 /// size 30
@@ -62,7 +62,7 @@ TextStyle myTextStyle30(
     Color fontColor = Colors.black,
     String fontFamily = "primary"}) {
   return TextStyle(
-      fontWeight: fontWeight, fontFamily: fontFamily, fontSize: 30);
+      fontWeight: fontWeight,color: fontColor, fontFamily: fontFamily, fontSize: 30);
 }
 
 /// custom text style => DONE
