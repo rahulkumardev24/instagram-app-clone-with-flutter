@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_app_clone/screen/bottom_navigation_screen/home_screen.dart';
+import 'package:instagram_app_clone/screen/bottom_navigation_screen/profile_screen.dart';
 import 'package:instagram_app_clone/screen/dashboard/dashboard_screen.dart';
 import 'package:instagram_app_clone/screen/splash_screen.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const DashboardScreen());
+        home: const ProfileScreen());
   }
 }
 
