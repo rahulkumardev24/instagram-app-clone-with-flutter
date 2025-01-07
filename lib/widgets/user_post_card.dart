@@ -27,7 +27,7 @@ class _UserPostCardState extends State<UserPostCard> {
   Widget build(BuildContext context) {
     mediaQueryData = MediaQuery.of(context);
     return SizedBox(
-      height: mediaQueryData!.size.height * 0.75,
+      height: mediaQueryData!.size.height * 0.79,
       child: Column(
         children: [
           ListTile(

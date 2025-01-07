@@ -54,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: [
             SizedBox(
-              height: mqData!.size.width * 0.34,
+              height: mqData!.size.width * 0.35,
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10.0),
                 child: SingleChildScrollView(

@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const DashboardScreen());
+        home: const SplashScreen());
   }
 }
 
@@ -53,6 +53,13 @@ class MyApp extends StatelessWidget {
 ///
 /// step 8
 /// Search Screen => DONE
+///
+/// step 9
+/// add screen => DONE
+///
+/// Step 10
+/// Complete => Final Test in Real Device
+///
 ///
 ///
 ///
