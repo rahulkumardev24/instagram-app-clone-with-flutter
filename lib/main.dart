@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_app_clone/screen/bottom_navigation_screen/home_screen.dart';
 import 'package:instagram_app_clone/screen/bottom_navigation_screen/profile_screen.dart';
+import 'package:instagram_app_clone/screen/bottom_navigation_screen/reels_screen.dart';
 import 'package:instagram_app_clone/screen/dashboard/dashboard_screen.dart';
 import 'package:instagram_app_clone/screen/splash_screen.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const ProfileScreen());
+        home: const DashboardScreen());
   }
 }
 
@@ -46,6 +47,9 @@ class MyApp extends StatelessWidget {
 ///
 /// Step 6
 /// Profile Screen => DONE
+///
+/// Steps 7
+/// Reels Screen => DONE
 ///
 ///
 ///
