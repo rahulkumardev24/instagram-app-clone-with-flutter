@@ -36,7 +36,6 @@ class _ReelsCardState extends State<ReelsCard> {
   @override
   void initState() {
     super.initState();
-
     initialize();
   }
 
@@ -59,6 +58,13 @@ class _ReelsCardState extends State<ReelsCard> {
           (currentVideo - 1 + shortsVideo.length) % shortsVideo.length;
     }
     initialize();
+  }
+
+  /// apply
+  @override
+  void dispose() {
+    videoPlayerController?.dispose(); // Dispose the controller
+    super.dispose();
   }
 
   @override

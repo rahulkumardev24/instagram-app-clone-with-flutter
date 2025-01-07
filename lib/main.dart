@@ -51,5 +51,8 @@ class MyApp extends StatelessWidget {
 /// Steps 7
 /// Reels Screen => DONE
 ///
+/// step 8
+/// Search Screen => DONE
+///
 ///
 ///
