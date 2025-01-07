@@ -45,5 +45,7 @@ class MyApp extends StatelessWidget {
 /// Home screen => DONE
 ///
 /// Step 6
-/// Profile Screen =>
+/// Profile Screen => DONE
+///
+///
 ///
